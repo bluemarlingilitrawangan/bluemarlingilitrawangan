@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PADI Divemaster Gili Trawangan | Divemaster Internship Indonesia</title>
+
+<meta name="description" content="Join a premium PADI Divemaster internship in Gili Trawangan with Blue Marlin Dive. Professional scuba career development in Indonesia." />
+
+<meta name="keywords" content="padi divemaster gili trawangan, divemaster internship gili trawangan, divemaster internship indonesia" />
+
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://blue-marlin-dive.vercel.app/">
+
+<meta property="og:title" content="PADI Divemaster Internship Indonesia | Blue Marlin Dive">
+<meta property="og:description" content="Train professionally in paradise with Blue Marlin Dive’s elite divemaster internship programs in Gili Trawangan.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blue-marlin-dive.vercel.app/">
+
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+:root{
+--primary:#00d4ff;
+--secondary:#081120;
+--accent:#2563eb;
+--light:#f8fbff;
+--glass:rgba(255,255,255,0.08);
+--border:rgba(255,255,255,0.14);
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Montserrat',sans-serif;
+background:#020817;
+color:#fff;
+overflow-x:hidden;
+line-height:1.8;
+}
+
+.container{
+width:90%;
+max-width:1350px;
+margin:auto;
+}
+
+header{
+position:fixed;
+width:100%;
+top:0;
+z-index:999;
+background:rgba(2,8,23,0.55);
+backdrop-filter:blur(16px);
+border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:22px 0;
+}
+
+.logo{
+font-size:1.7rem;
+font-weight:900;
+letter-spacing:1px;
+}
+
+.logo span{
+color:var(--primary);
+}
+
+.nav-links{
+display:flex;
+gap:32px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#fff;
+font-weight:600;
+transition:.3s;
+position:relative;
+}
+
+.nav-links a::after{
+content:'';
+position:absolute;
+left:0;
+bottom:-7px;
+width:0;
+height:2px;
+background:var(--primary);
+transition:.3s;
+}
+
+.nav-links a:hover::after{
+width:100%;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+position:relative;
+overflow:hidden;
+}
+
+.hero-video-bg{
+position:absolute;
+inset:0;
+background:
+linear-gradient(rgba(2,8,23,.78), rgba(2,8,23,.88)),
+url('https://images.unsplash.com/photo-1524704654690-b56c05c78a00?q=80&w=1900&auto=format&fit=crop') center/cover no-repeat;
+z-index:-2;
+}
+
+.hero::before{
+content:'';
+position:absolute;
+width:700px;
+height:700px;
+background:radial-gradient(circle,var(--primary),transparent 70%);
+top:-300px;
+right:-150px;
+opacity:.12;
+z-index:-1;
+}
+
+.hero::after{
+content:'';
+position:absolute;
+width:650px;
+height:650px;
+background:radial-gradient(circle,#2563eb,transparent 70%);
+bottom:-280px;
+left:-180px;
+opacity:.12;
+z-index:-1;
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1.1fr .9fr;
+gap:70px;
+align-items:center;
+}
+
+.hero h1{
+font-size:5rem;
+line-height:1.05;
+font-weight:900;
+margin-bottom:28px;
+}
+
+.hero p{
+font-size:1.15rem;
+color:#d6e4f0;
+margin-bottom:38px;
+max-width:760px;
+}
+
+.hero-buttons{
+display:flex;
+gap:18px;
+flex-wrap:wrap;
+}
+
+.btn{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+padding:17px 36px;
+border-radius:60px;
+font-weight:700;
+text-decoration:none;
+transition:.3s;
+}
+
+.btn-primary{
+background:linear-gradient(135deg,#06b6d4,#2563eb);
+color:#fff;
+box-shadow:0 12px 35px rgba(37,99,235,.4);
+}
+
+.btn-primary:hover{
+transform:translateY(-5px);
+}
+
+.btn-outline{
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.15);
+color:#fff;
+}
+
+.floating-card{
+background:rgba(255,255,255,.08);
+border:1px solid rgba(255,255,255,.12);
+padding:38px;
+border-radius:30px;
+backdrop-filter:blur(20px);
+box-shadow:0 30px 70px rgba(0,0,0,.35);
+}
+
+.floating-card h3{
+font-size:1.7rem;
+margin-bottom:28px;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+
+.stat{
+background:rgba(255,255,255,.05);
+padding:25px;
+border-radius:18px;
+text-align:center;
+}
+
+.stat h4{
+font-size:2rem;
+color:var(--primary);
+margin-bottom:8px;
+}
+
+section{
+padding:120px 0;
+}
+
+.section-title{
+text-align:center;
+max-width:900px;
+margin:auto auto 70px;
+}
+
+.section-title h2{
+font-size:3rem;
+margin-bottom:20px;
+font-weight:800;
+}
+
+.section-title p{
+color:#cbd5e1;
+}
+
+.grid-3{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.card{
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.08);
+padding:40px;
+border-radius:28px;
+backdrop-filter:blur(14px);
+transition:.4s;
+overflow:hidden;
+position:relative;
+}
+
+.card:hover{
+transform:translateY(-10px);
+border-color:rgba(0,212,255,.35);
+}
+
+.card img{
+width:100%;
+height:240px;
+object-fit:cover;
+border-radius:20px;
+margin-bottom:25px;
+}
+
+.card i{
+font-size:2.4rem;
+margin-bottom:22px;
+color:var(--primary);
+}
+
+.card h3{
+margin-bottom:16px;
+font-size:1.5rem;
+}
+
+.timeline{
+position:relative;
+max-width:1000px;
+margin:auto;
+}
+
+.timeline::before{
+content:'';
+position:absolute;
+left:50%;
+top:0;
+width:3px;
+height:100%;
+background:rgba(255,255,255,.12);
+transform:translateX(-50%);
+}
+
+.timeline-item{
+width:50%;
+padding:30px;
+position:relative;
+}
+
+.timeline-item:nth-child(odd){
+left:0;
+text-align:right;
+}
+
+.timeline-item:nth-child(even){
+left:50%;
+}
+
+.timeline-content{
+background:rgba(255,255,255,.05);
+padding:30px;
+border-radius:22px;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.timeline-content h3{
+margin-bottom:15px;
+}
+
+.luxury-banner{
+padding:90px;
+border-radius:32px;
+background:
+linear-gradient(135deg,rgba(6,182,212,.14),rgba(37,99,235,.18));
+border:1px solid rgba(255,255,255,.08);
+text-align:center;
+}
+
+.luxury-banner h2{
+font-size:3.2rem;
+margin-bottom:25px;
+}
+
+.testimonials{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.testimonial{
+background:rgba(255,255,255,.05);
+padding:35px;
+border-radius:24px;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.testimonial p{
+margin-bottom:20px;
+color:#dbeafe;
+}
+
+.contact-wrapper{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.contact-card{
+background:rgba(255,255,255,.05);
+padding:40px;
+border-radius:28px;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.contact-card p{
+margin-bottom:18px;
+}
+
+.socials{
+display:flex;
+gap:15px;
+margin-top:30px;
+}
+
+.socials a{
+width:52px;
+height:52px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+background:rgba(255,255,255,.08);
+color:#fff;
+text-decoration:none;
+font-size:1.1rem;
+transition:.3s;
+}
+
+.socials a:hover{
+background:var(--primary);
+transform:translateY(-5px);
+}
+
+.map iframe{
+width:100%;
+height:450px;
+border:0;
+border-radius:24px;
+}
+
+footer{
+padding:55px 0;
+text-align:center;
+background:#010612;
+border-top:1px solid rgba(255,255,255,.08);
+}
+
+footer p{
+color:#94a3b8;
+}
+
+footer a{
+color:var(--primary);
+text-decoration:none;
+}
+
+@media(max-width:1100px){
+
+.hero-grid,
+.contact-wrapper{
+grid-template-columns:1fr;
+}
+
+.hero{
+padding-top:120px;
+padding-bottom:80px;
+}
+
+.hero h1{
+font-size:3.5rem;
+}
+
+.timeline::before{
+left:20px;
+}
+
+.timeline-item{
+width:100%;
+padding-left:60px;
+padding-right:0;
+left:0 !important;
+text-align:left !important;
+}
+
+}
+
+@media(max-width:768px){
+
+.nav-links{
+display:none;
+}
+
+.hero h1{
+font-size:2.5rem;
+}
+
+.section-title h2{
+font-size:2.2rem;
+}
+
+.luxury-banner{
+padding:50px 30px;
+}
+
+}
+
+</style>
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"SportsActivityLocation",
+"name":"Blue Marlin Dive",
+"url":"https://blue-marlin-dive.vercel.app/",
+"telephone":"+62 (0)821-4785-0413",
+"email":"info@bluemarlingilitrawangan.com",
+"address":{
+"@type":"PostalAddress",
+"streetAddress":"Main Beach Road",
+"addressLocality":"Gili Trawangan",
+"addressCountry":"Indonesia"
+},
+"geo":{
+"@type":"GeoCoordinates",
+"latitude":"-8.3529",
+"longitude":"116.0294"
+},
+"openingHours":"Mo-Su 10:00-22:00",
+"sameAs":[
+"https://web.facebook.com/BlueMarlinGiliTrawangan",
+"https://www.instagram.com/bluemarlindivegilit/",
+"https://www.youtube.com/user/BlueMarlinMedia",
+"https://g.page/r/CZ4ay9VWZT6mEAE"
+]
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container navbar">
+
+<div class="logo">
+Blue <span>Marlin</span> Dive
+</div>
+
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#internship">Internship</a>
+<a href="#journey">Journey</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+</div>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-video-bg"></div>
+
+<div class="container hero-grid">
+
+<div>
+
+<h1>
+Become A PADI Divemaster In Paradise
+</h1>
+
+<p>
+Transform your passion for scuba diving into a professional lifestyle with Blue Marlin Dive’s elite divemaster internship programs in Gili Trawangan. Train alongside experienced instructors, explore Indonesia’s world-famous reefs, and develop the skills required to begin your career in the international diving industry.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#contact" class="btn btn-primary">
+Apply For Internship
+</a>
+
+<a href="https://bluemarlingilitrawangan.com/" target="_blank" class="btn btn-outline">
+Official Website
+</a>
+
+</div>
+
+</div>
+
+<div class="floating-card">
+
+<h3>Professional Internship Environment</h3>
+
+<div class="stats">
+
+<div class="stat">
+<h4>PADI</h4>
+<p>Professional Training</p>
+</div>
+
+<div class="stat">
+<h4>100+</h4>
+<p>Dives During Training</p>
+</div>
+
+<div class="stat">
+<h4>Elite</h4>
+<p>Instructor Mentorship</p>
+</div>
+
+<div class="stat">
+<h4>Tropical</h4>
+<p>Island Lifestyle</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>PADI Divemaster Gili Trawangan Programs</h2>
+
+<p>
+Blue Marlin Dive offers one of the most immersive divemaster internship experiences in Indonesia. Located in the heart of Gili Trawangan, our programs are designed for divers who want more than certifications — they want real-world experience, leadership development, and a pathway into the professional scuba industry.
+</p>
+
+</div>
+
+<div class="grid-3">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1546026423-cc4642628d2b?q=80&w=1200&auto=format&fit=crop" alt="PADI Divemaster Internship">
+
+<h3>Professional Divemaster Training</h3>
+
+<p>
+Our PADI divemaster programs combine advanced diving knowledge with practical leadership skills. Interns participate in dive planning, guiding certified divers, assisting instructors, and developing confidence within a professional dive operation.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1524704654690-b56c05c78a00?q=80&w=1200&auto=format&fit=crop" alt="Gili Trawangan Diving">
+
+<h3>Divemaster Internship Indonesia</h3>
+
+<p>
+Indonesia has become one of the world’s leading destinations for professional scuba development. The warm tropical waters surrounding Gili Trawangan create the perfect environment for intensive training, marine life encounters, and unforgettable underwater experiences.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=1200&auto=format&fit=crop" alt="Technical Diving">
+
+<h3>Professional Diving Pathways</h3>
+
+<p>
+Divers pursuing long-term professional growth often continue toward instructor-level certifications and technical diving specialties. Advanced divers can also explore our previous Cloudflare resource dedicated to 
+<a href="https://blue-marlin-dive.pages.dev/" target="_blank" style="color:#38bdf8;">
+technical diving Indonesia
+</a>
+and nitrox diving education.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="internship">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Inside Our Divemaster Internship Experience</h2>
+
+<p>
+An elite training pathway designed to prepare future dive professionals for the global scuba industry.
+</p>
+
+</div>
+
+<div class="grid-3">
+
+<div class="card">
+
+<i class="fa-solid fa-water"></i>
+
+<h3>Daily Ocean Training</h3>
+
+<p>
+Interns participate in guided dives, buoyancy workshops, navigation exercises, rescue scenarios, and professional-level underwater skill development.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-users"></i>
+
+<h3>Instructor Mentorship</h3>
+
+<p>
+Work closely with experienced instructors and gain valuable insight into customer interaction, diver supervision, and operational professionalism.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-earth-asia"></i>
+
+<h3>Tropical Island Lifestyle</h3>
+
+<p>
+Live and train in one of Southeast Asia’s most famous scuba destinations while building friendships with divers from around the world.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="journey">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Your Professional Diving Journey</h2>
+
+<p>
+A structured progression from passionate diver to confident dive professional.
+</p>
+
+</div>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<div class="timeline-content">
+
+<h3>Step 1 — Advanced Diving Skills</h3>
+
+<p>
+Improve buoyancy, navigation, rescue abilities, and dive confidence through intensive practical training.
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-content">
+
+<h3>Step 2 — Leadership Development</h3>
+
+<p>
+Learn to supervise certified divers, assist instructors, and understand professional dive center operations.
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-content">
+
+<h3>Step 3 — Real Dive Experience</h3>
+
+<p>
+Participate in daily diving activities while gaining practical experience in real-world underwater environments.
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-content">
+
+<h3>Step 4 — Career Opportunities</h3>
+
+<p>
+Graduate with the skills, confidence, and professional mindset needed to begin your scuba career internationally.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="luxury-banner">
+
+<h2>
+Live The Dream. Dive Professionally.
+</h2>
+
+<p style="max-width:900px;margin:auto;color:#dbeafe;">
+Blue Marlin Dive blends professional scuba education with the lifestyle of a tropical island paradise. From sunrise boat dives to advanced leadership training, every part of the internship experience is designed to prepare divers for a successful future in the international diving industry.
+</p>
+
+<br><br>
+
+<a href="https://g.page/r/CZ4ay9VWZT6mEAE" target="_blank" class="btn btn-primary">
+See Our Google Reviews
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="reviews">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Intern Testimonials</h2>
+
+<p>
+Experiences shared by divers who transformed their passion into professional careers.
+</p>
+
+</div>
+
+<div class="testimonials">
+
+<div class="testimonial">
+
+<p>
+“The divemaster internship completely changed my life. I arrived as a recreational diver and left with confidence, leadership skills, and unforgettable memories.”
+</p>
+
+<h4>— Hannah L., Australia</h4>
+
+</div>
+
+<div class="testimonial">
+
+<p>
+“Blue Marlin Dive delivered a true professional environment. The mentorship quality and real-world experience exceeded every expectation.”
+</p>
+
+<h4>— Marcus D., Sweden</h4>
+
+</div>
+
+<div class="testimonial">
+
+<p>
+“The combination of world-class diving and tropical island living made this one of the best decisions I have ever made.”
+</p>
+
+<h4>— Sofia M., Spain</h4>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Start Your Professional Diving Career</h2>
+
+<p>
+Contact Blue Marlin Dive and begin your divemaster internship adventure in Gili Trawangan.
+</p>
+
+</div>
+
+<div class="contact-wrapper">
+
+<div class="contact-card">
+
+<p><strong>Address:</strong> Main Beach Road, Gili Trawangan, Indonesia</p>
+
+<p><strong>Email:</strong> info@bluemarlingilitrawangan.com</p>
+
+<p><strong>Phone:</strong> +62 (0)821-4785-0413</p>
+
+<p><strong>Working Hours:</strong> 10am - 10pm</p>
+
+<p>
+<a href="https://bluemarlingilitrawangan.com/" target="_blank" style="color:#38bdf8;">
+Blue Marlin Dive official website
+</a>
+</p>
+
+<p>
+<a href="https://g.page/r/CZ4ay9VWZT6mEAE" target="_blank" style="color:#38bdf8;">
+Find us on Google Maps
+</a>
+</p>
+
+<div class="socials">
+
+<a href="https://web.facebook.com/BlueMarlinGiliTrawangan" target="_blank">
+<i class="fab fa-facebook-f"></i>
+</a>
+
+<a href="https://www.instagram.com/bluemarlindivegilit/" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="https://www.youtube.com/user/BlueMarlinMedia" target="_blank">
+<i class="fab fa-youtube"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="map">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.4689551999572!2d116.04249209999999!3d-8.3554418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdddf8b2116edd%3A0xa63e6556d5cb1a9e!2sBlue%20Marlin%20Dive%20-%20Gili%20Trawangan!5e0!3m2!1sen!2s!4v1779690814482!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container">
+
+<p>
+© 2026 Blue Marlin Dive — PADI Divemaster Internship Indonesia
+</p>
+
+<p style="margin-top:12px;">
+Professional scuba leadership development and luxury dive career experiences in Gili Trawangan.
+</p>
+
+</div>
+
+</footer>
+
+</body>
+</html>
